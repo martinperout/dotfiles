@@ -1,0 +1,122 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type": "builtin",
+        "height": 15,
+        "width": 30,
+        "padding": {
+            "top": 5,
+            "left": 3
+        }
+    },
+    "display":{
+        "separator": "    "
+    },
+    "modules": [
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌───────────────────────────── \u001b[92mHardware\u001b[90m ───────────────────────────┐"
+        },
+        {
+            "type": "cpu",
+            "key": "│  CPU    ",
+            "keyColor": "green"
+        },
+        {
+            "type": "gpu",
+            "key": "│  GPU    ",
+            "keyColor": "green"
+        },
+        {
+            "type": "memory",
+            "key": "│ 󰾆 RAM    ",
+            "keyColor": "green"
+        },
+        {
+            "type": "swap",
+            "key": "│ 󰾆 SWAP   ",
+            "keyColor": "green"
+        },
+        {
+            "type": "disk",
+            "key": "│  disk   ",
+            "keyColor": "green"
+        },
+        {
+            "type": "display",
+            "key": "│ 󰍹 display",
+            "keyColor": "green"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└──────────────────────────────────────────────────────────────────┘"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌───────────────────────────── \u001b[93mSystem\u001b[90m ─────────────────────────────┐"
+        },
+        {
+            "type": "os",
+            "key": "│  OS    ",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "kernel",
+            "key": "│  kernel",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "packages",
+            "key": "│ 󰏖 pkg   ",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "de",
+            "key": "│  DE    ",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "wm",
+            "key": "│ 󱂬 WM    ",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "shell",
+            "key": "│  shell ",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└──────────────────────────────────────────────────────────────────┘"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌───────────────────────────── \u001b[94mNetwork\u001b[90m ────────────────────────────┐"
+        },
+        {
+            "type": "localip",
+            "key": "│ 󰩠 local IP ",
+            "keyColor": "blue"
+        },
+                {
+            "type": "publicip",
+            "key": "│ 󰩠 public IP",
+            "keyColor": "blue"
+        },
+        {
+            "type": "dns",
+            "key": "│ 󰮌 DNS      ",
+            "keyColor": "blue"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└──────────────────────────────────────────────────────────────────┘"
+        },
+        {
+            "type": "colors",
+            "paddingLeft": 2,
+            "symbol": "circle"
+        }
+    ]
+}

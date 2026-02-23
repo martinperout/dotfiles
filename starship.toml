@@ -1,0 +1,15 @@
+format = '''
+[ ╭────> ](bold green)$directory$git_branch
+[ ╰─> ](bold green)
+'''
+
+scan_timeout = 10
+
+[directory]
+format = '\[[ $path ]($style)\]'
+truncation_length = 0
+truncate_to_repo = false
+
+[git_branch]
+symbol = ""
+format = '[ \[ $symbol $branch \]]($style)'
