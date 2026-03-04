@@ -7,5 +7,5 @@ size = 10
 [keyboard]
 bindings = [
     {key = "v", mods = "Control", action = "Paste"}, 
-    {key = "c", mods = "Control", action = "Copy"},
+    {key = "x", mods = "Control", action = "Copy"},
 ]
