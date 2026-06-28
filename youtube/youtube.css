@@ -1,0 +1,68 @@
+/* ================================
+   REMOVING SHORTS
+   ================================ */
+ytd-rich-section-renderer[is-shorts],
+ytd-reel-shelf-renderer,
+ytd-shorts,
+ytd-rich-grid-media[is-shorts] {
+    display: none !important;
+}
+
+a[title="Shorts"],
+tp-yt-paper-tab[aria-label="Shorts"] {
+    display: none !important;
+}
+
+ytd-rich-section-renderer {
+    grid-column: 1 / -1 !important;
+}
+
+/* ================================
+   FORCE 4 VIDEOS PER ROW
+   ================================ */
+ytd-rich-grid-renderer {
+    --ytd-rich-grid-items-per-row: 4 !important;
+}
+
+/* ================================
+   REMOVING UNNECESSARY MENU STUFF 
+   ================================ */
+ytd-rich-section-renderer {
+    display: none !important;
+}
+
+ytd-feed-filter-chip-bar-renderer,
+ytd-feed-filter-chip-bar-renderer * {
+    display: none !important;
+}
+
+#frosted-glass.with-chipbar.ytd-app{
+    max-height: 60px !important;
+}
+
+ytd-guide-section-renderer:has(
+    ytd-guide-entry-renderer a[href^="/premium"]
+),
+ytd-guide-section-renderer:has(
+    ytd-guide-entry-renderer a[href^="/music"]
+),
+ytd-guide-section-renderer:has(
+    ytd-guide-entry-renderer a[href^="/kids"]
+),
+ytd-guide-section-renderer:has(
+    ytd-guide-entry-renderer a[href^="/studio"]
+) {
+    display: none !important;
+}
+
+/* ================================
+   CLEANUP
+   ================================ */
+ytd-thumbnail {
+    border-radius: 12px !important;
+}
+
+#metadata-line span {
+    display: none !important;
+}
+

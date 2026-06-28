@@ -1,0 +1,47 @@
+/* ================================
+    REMOVEING SHORTS
+    ================================ */
+.rich-section-content{
+    display: none !important;
+}
+
+.pivot-shorts{
+    display: none !important;
+}
+
+/* ================================
+    REMOVING COMMUNITY POSTS AND OTHER SIMILAR THINGS
+    ================================ */
+
+ytm-post-renderer,
+ytm-community-post-renderer,
+
+ytm-rich-item-renderer[is-post],
+ytm-rich-item-renderer:has(ytm-post-renderer),
+
+ytm-poll-renderer {
+    display: none !important;
+}
+
+ytm-survey-renderer,
+ytm-inline-survey-renderer,
+ytm-feedback-survey-renderer {
+    display: none !important;
+}
+
+ytm-promoted-video-renderer,
+ytm-display-ad-renderer,
+ytm-ad-slot-renderer {
+    display: none !important;
+}
+
+/* ================================
+    REMOVING TOP MENU
+    ================================ */
+ytm-chip-cloud-renderer,
+ytm-chip-cloud-renderer * {
+    display: none !important;
+}
+
+ytm-browse {
+    padding-top: 0 !important;}
