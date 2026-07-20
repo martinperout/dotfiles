@@ -6,6 +6,7 @@ fi
 # set editors
 export EDITOR=nvim
 export VISUAL=nivm
+export XDG_CONFIG_HOME="$HOME/.config"
 
 # load aliases
 if [ -f ~/.bash_aliases ]; then
