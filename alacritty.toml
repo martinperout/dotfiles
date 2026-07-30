@@ -4,6 +4,22 @@ startup_mode = "Maximized"
 [font]
 size = 10
 
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"
+
 [keyboard]
 bindings = [
     {key = "v", mods = "Control", action = "Paste"}, 
