@@ -9,3 +9,7 @@ set_terminal:
 set_bash:
 	cp -fr .bashrc ~
 	cp -fr .bash_aliases ~
+
+set_no_starship_bash:
+	cp -fr ./no_starship_bash/.bashrc ~
+	cp -fr .bash_aliases ~
