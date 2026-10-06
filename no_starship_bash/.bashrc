@@ -16,6 +16,8 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 # bash prompt
+source /usr/lib/git-core/git-sh-prompt # source git prompt
+
 PS1='
 \[\033[01;32m\] ╭────> \[\033[00m\]\[\033[01;36m\][ ${debian_chroot:+($debian_chroot)}\w ]\[\033[01;34m\] \[\033[01;37m\]$(__git_ps1 "[ %s]"\[\033[00m\])
 \[\033[01;32m\] ╰─> \[\033[00m\]'
